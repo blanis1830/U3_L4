@@ -1,0 +1,13 @@
+1 - What are the base cases of the binary search algorithm? When do we stop digging?
+  When the middle is equal to the value, and when the value isn't in the list anymore.
+
+2 - How do the arguments of the binary_search function move towards the base case?
+If target is less than midpoint value, it calls itself with the left half of the list
+
+3 - Make some notes about how the pointer should probably move. What should the initial pointer value be? 
+0
+
+4 - How will the pointer change if the target is to the left? What about to the right?
+Consider the sample list given (1-9). What is the maximum number of steps it would take to find a number in this list using binary search? 
+Compare and contrast the efficiency of binary search with a simple iteration search (search L to R one by one).
+  Target to the left is the same index as the current segment, 10
